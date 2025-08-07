@@ -1,6 +1,6 @@
 # txt2pdf
 
-txt2pdf is a Rust application that converts plain text files into PDF documents. This project utilizes various libraries for file handling and PDF generation, providing a simple and efficient way to create PDFs from text.
+txt2pdf is a Rust application that converts plain text files into PDF documents. This project utilizes various libraries for file handling and PDF generation, providing a simple and efficient way to create PDFs from text. Also this is my first Rust project so there might be bugs but I used Copilot for some stuff so its hopefully not as bad.
 
 ## Features
 
@@ -34,6 +34,8 @@ To convert a text file to PDF, run the following command:
 ```
 
 Replace `<input_file.txt>` with the path to your text file and `<output_file.pdf>` with the desired name for the output PDF file.
+
+For help use txt2pdf --help.
 
 ## Contributing
 
