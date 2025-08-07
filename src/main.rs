@@ -159,9 +159,13 @@ let font = doc.add_builtin_font(font_choice).unwrap();
     }
 
     // Save the PDF file
-    let output = File::create(output_file)?;
+    let output = File::create(&output_file)?;
     let mut buf_writer = BufWriter::new(output);
     doc.save(&mut buf_writer).unwrap();
+
+    if Path::new(&output_file).exists() {
+        println!("Your PDF '{}' was successfully created.", output_file);
+    }
 
     Ok(())
 }
