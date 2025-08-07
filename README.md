@@ -15,7 +15,7 @@ To build and run the application, ensure you have Rust and Cargo installed on yo
 Clone the repository:
 
 ```
-git clone https://github.com/yourusername/txt2pdf.git
+git clone https://github.com/linuxfox2509/txt2pdf.git
 cd txt2pdf
 ```
 
